@@ -29,7 +29,7 @@ public class Meeting
     public Meeting(com.example.meeting.repository.entity.Meeting meeting)
     {
         this.meeting_title = meeting.getMeetingName();
-        
+
         this.meeting_id = meeting.getMeetingId();
 
         this.meeting_name = meeting.getMeetingName();

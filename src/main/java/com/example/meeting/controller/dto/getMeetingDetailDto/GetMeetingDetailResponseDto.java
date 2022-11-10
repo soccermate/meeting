@@ -21,9 +21,9 @@ public class GetMeetingDetailResponseDto
 
     private final String meeting_name;
 
-    private final String meeting_date;
+    private final MeetingDate meeting_date;
 
-    private final String meeting_time;
+    private final MeetingTime meeting_time;
 
     private final String meeting_location;
 
